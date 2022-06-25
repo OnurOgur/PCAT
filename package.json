@@ -1,27 +1,32 @@
 {
-  "name": "pcat",
-  "version": "1.0.0",
-  "description": "PCAT Photo App",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OnurOgur/PCAT.git"
-  },
-  "keywords": [
-    "photo",
-    "app",
-    "camera"
-  ],
-  "author": "Onur Oğur",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OnurOgur/PCAT/issues"
-  },
-  "homepage": "https://github.com/OnurOgur/PCAT#readme",
-  "devDependencies": {
-    "prettier": "2.7.1"
-  }
+    "name": "pcat",
+    "version": "1.0.0",
+    "description": "PCAT Photo App",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OnurOgur/PCAT.git"
+    },
+    "keywords": [
+        "photo",
+        "app",
+        "camera"
+    ],
+    "author": "Onur Oğur",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/OnurOgur/PCAT/issues"
+    },
+    "homepage": "https://github.com/OnurOgur/PCAT#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.18",
+        "prettier": "2.7.1"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    }
 }
